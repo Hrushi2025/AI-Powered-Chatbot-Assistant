@@ -15,21 +15,21 @@ This project demonstrates an end-to-end conversational AI system with a self-con
 
 Features
 
-✅ Intent Classification: Classifies queries into categories like portfolio, market, loan, faq, or sends to LLM if unknown.
+Intent Classification: Classifies queries into categories like portfolio, market, loan, faq, or sends to LLM if unknown.
 
-✅ FAQ/Document Retrieval: Queries the internal MySQL knowledge base for exact matches to user questions.
+FAQ/Document Retrieval: Queries the internal MySQL knowledge base for exact matches to user questions.
 
-✅ Local LLM Integration: Uses lightweight LLaMA/Alpaca/Vicuna models to generate natural, multilingual, and human-like responses.
+Local LLM Integration: Uses lightweight LLaMA/Alpaca/Vicuna models to generate natural, multilingual, and human-like responses.
 
-✅ Portfolio & Market Insights: Provides portfolio summaries and simple market advice.
+Portfolio & Market Insights: Provides portfolio summaries and simple market advice.
 
-✅ Loan Eligibility Checks: Returns user eligibility based on predefined rules.
+Loan Eligibility Checks: Returns user eligibility based on predefined rules.
 
-✅ End-to-End GUI: Tkinter GUI for chatting with the bot, including multi-turn conversations.
+End-to-End GUI: Tkinter GUI for chatting with the bot, including multi-turn conversations.
 
-✅ FastAPI Backend: API layer connects GUI and chatbot engine, allowing scalable deployment.
+FastAPI Backend: API layer connects GUI and chatbot engine, allowing scalable deployment.
 
-✅ Optional Enhancements:
+Optional Enhancements:
 
 Frontend switch to Streamlit or React.
 
