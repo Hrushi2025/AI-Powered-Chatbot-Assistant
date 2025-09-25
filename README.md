@@ -1,8 +1,12 @@
 # AI-Powered-Chatbot-Assistant:
+
+---
+
 The AI-Powered Chatbot Assistant is a fully functional chatbot system designed to provide financial insights, explain transactions, guide loan eligibility, and answer FAQs. 
 
 <img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/0549b1b9-8f44-4d3a-9797-3c5c18943231" />
 
+---
 
 It integrates:
 
@@ -34,6 +38,8 @@ End-to-End GUI: Tkinter GUI for chatting with the bot, including multi-turn conv
 
 FastAPI Backend: API layer connects GUI and chatbot engine, allowing scalable deployment.
 
+---
+
 Optional Enhancements:
 
 Frontend switch to Streamlit or React.
@@ -44,6 +50,8 @@ Conversation history storage in MySQL.
 
 Multilingual translation before sending prompts to LLM.
 
+---
+
 Project Structure:
 
 
@@ -51,7 +59,7 @@ Project Structure:
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/106d2410-870a-490f-9cc7-968d79e35f96" />
 
-
+---
 
 Module Dependencies and Flow:
 
@@ -61,13 +69,7 @@ Module Dependencies and Flow:
 
 
 
-
-
-
-
-
-
-
+---
 File Descriptions
 1. frontend/chatbot_ui.py
 
@@ -85,6 +87,8 @@ Entry box for user input
 
 Send button and Enter-key binding
 
+---
+
 2. backend/chatbot_service.py
 
 Handles all intent-based query responses:
@@ -99,6 +103,8 @@ handle_faq() – searches FAQ table in MySQL
 
 Main entry: chatbot_response(user_query) – predicts intent and routes query.
 
+---
+
 3. backend/llm_intent_service.py
 
 Routes queries to the local LLM if intent is unknown.
@@ -106,6 +112,8 @@ Routes queries to the local LLM if intent is unknown.
 Uses generate_llm_response() from llm_service.py.
 
 Supports multilingual responses and human-like generative answers.
+
+---
 
 4. backend/llm_service.py
 
@@ -130,6 +138,8 @@ def generate_llm_response(prompt, user_id="U001", language="en"):
 
 Handles all queries that the intent engine cannot classify.
 
+---
+
 5. backend/intent_service.py
 
 Predicts user intent.
@@ -141,6 +151,8 @@ Pre-trained ML model (intent_model.pkl) + vectorizer
 Or a simple rule-based classifier
 
 Example intents: portfolio, market, loan, faq.
+
+---
 
 6. backend/routes.py
 
@@ -161,11 +173,15 @@ async def chat_api(payload: dict):
 
 GUI or other clients send POST requests here.
 
+---
+
 7. models/ folder
 
 Store ML models or vectorizers.
 
 Optional if using rule-based intent classification.
+
+---
 
 8. data/ folder
 
@@ -174,6 +190,8 @@ Contains dummy MySQL tables for:
 portfolio – sample user assets (≥100 rows recommended)
 
 faq – question-answer pairs
+
+---
 
 9. requirements.txt
 
@@ -189,6 +207,8 @@ huggingface_hub
 mysql-connector-python
 scikit-learn
 joblib
+
+---
 
 Setup Instructions
 
