@@ -1,4 +1,4 @@
-# AI-Powered-Chatbot-Assistant
+# AI-Powered-Chatbot-Assistant:
 The AI-Powered Chatbot Assistant is a fully functional chatbot system designed to provide financial insights, explain transactions, guide loan eligibility, and answer FAQs. 
 
 <img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/0549b1b9-8f44-4d3a-9797-3c5c18943231" />
@@ -44,9 +44,16 @@ Conversation history storage in MySQL.
 
 Multilingual translation before sending prompts to LLM.
 
-Project Structure
+Project Structure:
 
-<img width="999" height="815" alt="image" src="https://github.com/user-attachments/assets/4c5d4021-2a99-45ae-9d0b-b35b509474d5" />
+
+
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8b9733f7-e345-43b8-be04-ab03d339d72a" />
+
+
+
+
 
 
 
