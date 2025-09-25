@@ -1,5 +1,10 @@
 # AI-Powered-Chatbot-Assistant
-The AI-Powered Chatbot Assistant is a fully functional chatbot system designed to provide financial insights, explain transactions, guide loan eligibility, and answer FAQs. It integrates:
+The AI-Powered Chatbot Assistant is a fully functional chatbot system designed to provide financial insights, explain transactions, guide loan eligibility, and answer FAQs. 
+
+<img width="1000" height="563" alt="image" src="https://github.com/user-attachments/assets/0549b1b9-8f44-4d3a-9797-3c5c18943231" />
+
+
+It integrates:
 
 Intent classification engine – Determines user intent from queries.
 
@@ -42,6 +47,7 @@ Multilingual translation before sending prompts to LLM.
 Project Structure
 
 <img width="999" height="815" alt="image" src="https://github.com/user-attachments/assets/4c5d4021-2a99-45ae-9d0b-b35b509474d5" />
+
 
 
 File Descriptions
