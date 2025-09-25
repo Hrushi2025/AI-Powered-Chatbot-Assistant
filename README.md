@@ -49,7 +49,18 @@ Project Structure:
 
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/8b9733f7-e345-43b8-be04-ab03d339d72a" />
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/106d2410-870a-490f-9cc7-968d79e35f96" />
+
+
+
+Module Dependencies and Flow:
+
+
+
+<img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/da1eed27-dc8c-4b54-8c86-b6195f24d35d" />
+
+
+
 
 
 
